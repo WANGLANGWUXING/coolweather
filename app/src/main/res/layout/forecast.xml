@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:andorid="http://schemas.android.com/apk/res/android"
+    andorid:orientation="vertical"
+    andorid:layout_width="match_parent"
+    andorid:layout_height="wrap_content"
+    andorid:layout_margin="15dp"
+    andorid:background="#8000">
+    <TextView
+
+        andorid:layout_width="wrap_content"
+        andorid:layout_height="wrap_content"
+        andorid:layout_marginLeft="15dp"
+        andorid:layout_marginTop="15dp"
+        andorid:text="预报"
+        andorid:textColor="#fff"
+        andorid:textSize="20sp"
+        />
+    <LinearLayout
+        andorid:id="@+id/forecast_layout"
+        andorid:orientation="vertical"
+        andorid:layout_width="match_parent"
+        andorid:layout_height="wrap_content"></LinearLayout>
+</LinearLayout>
